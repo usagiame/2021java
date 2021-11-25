@@ -32,7 +32,7 @@ public void gameStart(){
         }
     }
     int bombx;
-    System.out.println("爆弾のx座標を入力してください(1-5)");
+    System.out.println("爆弾のx座標を入力してください(1-5)"); 
     do{
         bombx = sc.nextInt();
         if(bombx < 1 || bombx > 5){
